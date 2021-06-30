@@ -9,6 +9,16 @@ ERROR: (gcloud.app.deploy) Error Response: [13] An internal error occurred while
 - runtime: nodejs
 - env: flex
 - check if you are the owner (in gcp under IAM&Admin->IAM)
-- 
-
+- gcloud config set app/stop_previous_version true
+- # creating a bucket 
+    https://cloud.google.com/sdk/gcloud/reference/app/deploy
+    - Cloud storage -> create bucket
+    - location type: Multi-region
+    - location: eu
+    - default storage class: Standart
+    - enforce public acces prevention on this bucket (yes)
+    - Access control: Uniform
+    To see your bucket in the console type gsutil ls
+    > :warning: **If you are using mobile browser**: Be very careful here!
+    AccessDeniedException: 403 Request is prohibited by organization's policy. vpcServiceControlsUniqueIdentifier: vQeeOpy3XGe3WLNxUJ1CCZJqkPNp_5Yr9FB-1jgbyWTyxaJ_wTcP0A
 
