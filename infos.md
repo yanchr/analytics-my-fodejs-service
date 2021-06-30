@@ -11,8 +11,8 @@ ERROR: (gcloud.app.deploy) Error Response: [13] An internal error occurred while
 - env: flex
 - check if you are the owner (in gcp under IAM&Admin->IAM)
 - gcloud config set app/stop_previous_version true
-- ### creating a bucket 
-    https://cloud.google.com/sdk/gcloud/reference/app/deploy
+- #### creating a bucket 
+    - https://cloud.google.com/sdk/gcloud/reference/app/deploy
     - Cloud storage -> create bucket
     - location type: Multi-region
     - location: eu
