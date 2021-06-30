@@ -19,6 +19,6 @@ ERROR: (gcloud.app.deploy) Error Response: [13] An internal error occurred while
     - enforce public acces prevention on this bucket (yes)
     - Access control: Uniform
     To see your bucket in the console type gsutil ls
-    > :warning: **If you are using mobile browser**: Be very careful here!
+    > :warning: **If you are using the mgb network**: You have to connect to the vm instance first ortherwise you'll get this error:
     AccessDeniedException: 403 Request is prohibited by organization's policy. vpcServiceControlsUniqueIdentifier: vQeeOpy3XGe3WLNxUJ1CCZJqkPNp_5Yr9FB-1jgbyWTyxaJ_wTcP0A
 
