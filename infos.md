@@ -25,7 +25,8 @@ ERROR: (gcloud.app.deploy) Error Response: [13] An internal error occurred while
     AccessDeniedException: 403 Request is prohibited by organization's policy. vpcServiceControlsUniqueIdentifier: vQeeOpy3XGe3WLNxUJ1CCZJqkPNp_5Yr9FB-1jgbyWTyxaJ_wTcP0A
 
 #### changed proxisettings for git in vm from gcp becaus i got an Failed to connect to github.com port 443: Connection timed out
+if your password or username have an @ change the @ -> %40
 `git config --global http.proxy http[s]://userName(encoded):password(encoded)@proxyaddress:port` <br>
-`git config --global http.proxy http[s]://yanhcr:4LzX%40%40#izTrYX4rh@127.0.0.1:8087` <br>
+`git config --global http.proxy http[s]://yanhcr:[password]@127.0.0.1:8087` <br>
 `git config --global http.proxy 127.0.0.1:1080`
 
