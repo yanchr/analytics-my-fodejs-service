@@ -1,3 +1,1 @@
 runtime: nodejs14
-skip_files:
-- ^node_modules/.*$
